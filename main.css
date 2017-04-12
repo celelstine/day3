@@ -39,3 +39,32 @@ border-width:0px;
 	padding-top:5px;
 	padding-bottom:5px;
 }
+
+.sidemenu
+{
+	position:relative
+	width:20%;
+	height:80%;
+	margin-left:0px;
+	padding-top:5px;
+	padding-left:20px
+}
+
+
+.dropdown-content {
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 2px 1px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+#btnExpandCircle botton:hover {
+background-color: #f1f1f1;

@@ -40,32 +40,55 @@
 		</div>
 
 		<div class="submenu">
-			<button id="btnGmail" style="cursor:pointer;float:left;padding:0px; border-width:0px; height::60%; margin-left:20px" >
+			<button id="btnGmail" style="cursor:pointer;float:left;padding:0px; border-width:0px; height:60%; margin-left:20px" >
 				<img src="gmailicon.jpg" alt="Gmail icon" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnGmailCat" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:100px" >
+			<button id="btnGmailCat" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:100px" >
 				<img src="category.jpg" alt="Gmail category" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnRefresh" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:10px" >
+			<button id="btnRefresh" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:10px" >
 				<img src="refresh.jpg" alt="Refresh button" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnmore" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:10px" >
+			<button id="btnmoreREad" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:10px" >
 				<img src="more.jpg" alt="More button" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnpage" style="cursor:pointer;float:left;padding:0px; border-width:0px; height::60%; margin-left:620px; background-color:#ffffff; padding-top:10px" >
+			<button id="btnpage" style="cursor:pointer;float:left;padding:0px; border-width:0px; height:60%; margin-left:620px; background-color:#ffffff; padding-top:10px" >
 				 <label id="pages" style="font-size:14px;"> <b>1-50 of 1,121 </b></label>
 			</button>
-			<button id="btnprevPage" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:10px" >
+			<button id="btnprevPage" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:10px" >
 				<img src="prevPage.jpg" alt="previous Page button" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnnextPage" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:0px" >
+			<button id="btnnextPage" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:0px" >
 				<img src="nextPage.jpg" alt="next Page button" width="100%" height="100%"> </img>
 			</button>
-			<button id="btnsetting" style="float:left;padding:0px; border-width:0px; height::60%; margin-left:15px" >
+			<button id="btnsetting" style="float:left;padding:0px; border-width:0px; height:60%; margin-left:15px" >
 				<img src="setting.jpg" alt="setting button" width="100%" height="100%"> </img>
 			</button>
 			<br/> <br/>
 			<hr />
+		</div>
+		
+		<div class="sidemenu">
+			<button id="btncompose" style="float:left;padding:0px; border-width:0px; height:30px;width:120px;background-color:#C1160D; padding-top:0px; color:#FFFFFF" >
+				 COMPOSE
+			</button>
+			<br /> <br />
+			<div id="myDropdown" class="dropdown-content">
+				<a href="#" style="color:#C1160D"><label id="lblInboxCount" style="font-size:14px;"> <b>Inbox (214)</b></label></a>
+				<a href="#">Starred</a>
+				<a href="#">Important</a>  
+				<a href="#">Sent Mail</a>  
+				<a href="#" style="color:#C1160D"><label id="lblDraftCount" style="font-size:14px;"> <b>Drafts (214)</b></label></a>
+				<a href="#" >
+					<button id="btnExpandCircle" style="float:left;padding:0px; border-width:0px; height:10%; margin-left:-10px; background-color:#ffffff" >
+						<img src="rightarrow.png" alt="Right Arrow" width="5px" height="5px"> </img>
+					</button>
+					<label id="lblDraftCount" style="font-size:14px; padding-left:1px"> <b>Circles</b></label>
+				</a>
+				<button id="btnMore" style="cursor:pointer;float:left;padding:0px; border-width:0px; height:10%; margin-left:0px; background-color:#ffffff" >
+					More	<img src="downarrow.png" alt="Down Arrow" width="5px" height="5px"> </img>
+				</button>
+			</div>
 		</div>
 	</body>
 </html>
