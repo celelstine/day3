@@ -68,3 +68,21 @@ border-width:0px;
 
 #btnExpandCircle botton:hover {
 background-color: #f1f1f1;
+
+}
+tr td {
+  border-bottom:1pt solid black;
+}
+
+ 
+
+.content{
+	position:relative;
+	width:85%;
+	height:80%;
+	margin-left:0px;
+	padding-top:5px;
+	padding-left:20px;
+	float:right;
+	margin-top:-40px
+}
